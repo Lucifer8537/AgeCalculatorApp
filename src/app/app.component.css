@@ -1,0 +1,189 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.date-picker input[type="number"] {
+  width: 72px;
+  height: 35px;
+  font-family: "Poppins";
+  border: 1px solid hsl(0, 0%, 86%, 0.5);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+input[type="number"]:focus {
+  border: 1px solid hsl(259, 100%, 65%);
+  outline: none;
+}
+
+.calculator {
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 190px;
+  left: 520px;
+  height: 300px;
+  width: 350px;
+  border-radius: 20px 20px 90px 20px;
+  padding: 35px;
+  font-family: "Poppins";
+}
+
+.date-picker {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-right: 60px;
+}
+.date-picker div {
+  display: grid;
+}
+
+.date-picker div span {
+  font-size: 8px;
+  color: hsl(0, 1%, 44%, 0.8);
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: hsl(0, 1%, 44%, 0.8);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: hsl(0, 1%, 44%, 0.8);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: hsl(0, 1%, 44%, 0.8);
+}
+
+.button-line {
+  display: flex;
+  align-items: center;
+}
+
+.desk-button {
+  border-radius: 100px;
+  width: 55px;
+  height: 55px;
+  border: none;
+  background-color: hsl(259, 100%, 65%);
+  cursor: pointer;
+}
+
+hr {
+  flex-grow: 1;
+  border: none;
+  height: 1px;
+  background-color: hsl(0, 0%, 86%, 0.5);
+}
+
+img {
+  width: auto;
+  height: 30px;
+}
+
+.age {
+  font-size: 48px;
+}
+
+.result {
+  margin-bottom: 35px;
+}
+
+.result-numeric {
+  color: hsl(259, 100%, 65%);
+}
+
+/* form.ng-submitted input.ng-invalid {
+  border: 1px solid hsl(0, 100%, 67%);
+} */
+
+.error-msg {
+  color: hsl(0, 100%, 67%) !important;
+  font-style: italic;
+}
+
+.left {
+  padding-left: 5px;
+}
+
+.mob-calculator {
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  width: 94%;
+  border-radius: 20px 20px 90px 20px;
+  font-family: "Poppins";
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 15%;
+}
+
+.mob-date-picker {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 10%;
+}
+
+.mob-date-picker input[type="number"] {
+  width: 70%;
+  height: 160%;
+  font-family: "Poppins";
+  border: 1px solid hsl(0, 0%, 86%, 0.5);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.mob-date-picker div {
+  display: grid;
+  padding: 12% 0% 12% 5%;
+}
+
+.mob-date-picker div span {
+  font-size: 13px;
+  color: hsl(0, 1%, 44%, 0.8);
+}
+
+.mob-button-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.mob-button {
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  background-color: hsl(259, 100%, 65%);
+  cursor: pointer;
+  position: absolute;
+  left: 40%;
+}
+
+.mob-age {
+  font-size: 48px;
+  margin-left: 5%;
+  margin-bottom: 15%;
+}
+
+.mob-error-msg {
+  color: hsl(0, 100%, 67%) !important;
+  font-style: italic;
+  margin-top: 20%;
+}
